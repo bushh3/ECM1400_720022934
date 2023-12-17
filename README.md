@@ -185,7 +185,7 @@ There are three possible game modes you could play. They are the `The Single Pla
 
    Once you have navigated to the webpage, hover your mouse over the board. You should see some of the squares highlighted green like this:
 
-   ![Alt text](<Screenshot 2023-12-17 at 20.35.48.png>)
+   ![Alt text](<README_photos/Screenshot 2023-12-17 at 20.35.48.png>)
    
    Move your mouse around until you are happy with the placement of your ship. When you are click your mouse.
 
@@ -193,11 +193,11 @@ There are three possible game modes you could play. They are the `The Single Pla
 
    You will notice that the ship you have placed is now grey and if the new ship is hovering over an existing ship or out of bounds of the board it will be red like this:
 
-   ![Alt text](<Screenshot 2023-12-17 at 20.39.29.png>)
+   ![Alt text](<README_photos/Screenshot 2023-12-17 at 20.39.29.png>)
 
    If you would like to rotate a ship press r like this:
 
-   ![Alt text](<Screenshot 2023-12-17 at 20.40.45.png>)
+   ![Alt text](<README_photos/Screenshot 2023-12-17 at 20.40.45.png>)
 
    Do this until all the ships are placed i.e. there are no more green squares appearing when you hover over the board.
 
@@ -205,13 +205,13 @@ There are three possible game modes you could play. They are the `The Single Pla
    
    Click OK on the message that appear at the top of your screen.
 
-   ![Alt text](<Screenshot 2023-12-17 at 21.08.17.png>)
+   ![Alt text](<README_photos/Screenshot 2023-12-17 at 21.08.17.png>)
 
 6. **Make Moves:**
 
    Once you have pressed game you will see the following webpage:
 
-   ![Alt text](<Screenshot 2023-12-17 at 20.43.31.png>)
+   ![Alt text](<README_photos/Screenshot 2023-12-17 at 20.43.31.png>)
 
    To make a move press on any square on the white board. Red means you have hit a battleship and blue is a miss.
 
@@ -219,7 +219,7 @@ There are three possible game modes you could play. They are the `The Single Pla
 
    `Example`
 
-   ![Alt text](<Screenshot 2023-12-17 at 20.45.05.png>)
+   ![Alt text](<README_photos/Screenshot 2023-12-17 at 20.45.05.png>)
 
    Now keep making moves until one player has sunk all the battleships.
 
@@ -227,11 +227,11 @@ There are three possible game modes you could play. They are the `The Single Pla
 
    `Example`
 
-   ![Alt text](<Screenshot 2023-12-17 at 20.47.56.png>)
+   ![Alt text](<README_photos/Screenshot 2023-12-17 at 20.47.56.png>)
 
    Once you click OK the final game state will be shown.
 
-   ![Alt text](<Screenshot 2023-12-17 at 20.48.15.png>)
+   ![Alt text](<README_photos/Screenshot 2023-12-17 at 20.48.15.png>)
 
 ## Testing
 Explain how users can run tests for your project. Include any testing frameworks or tools used.
