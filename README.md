@@ -31,7 +31,7 @@ To install the `ECM1400_720022934` package on your device, follow these steps:
    Change your current directory to the location where the `ECM1400_720022934` file is located. Use the `cd` command to navigate.
    
    ```bash
-   cd /ECM1400_720022934/src
+   cd /ECM1400_720022934
    ```
 4. **Install the Package:**
    
@@ -51,7 +51,7 @@ There are three possible game modes you could play. They are the `The Single Pla
    Change your current directory to the location where the battleships can be run from. Use the `cd` command to navigate.
    
    ```bash
-   cd /ECM1400_720022934/src/battleships_game
+   cd /ECM1400_720022934/battleships_game
    ```
 3. **Run the Game_Engine Module:**
 
@@ -87,7 +87,7 @@ There are three possible game modes you could play. They are the `The Single Pla
    Change your current directory to the location where the battleships can be run from. Use the `cd` command to navigate.
    
    ```bash
-   cd /ECM1400_720022934/src/battleships_game
+   cd /ECM1400_720022934/battleships_game
    ```
 3. **Run the Game_Engine Module:**
 
@@ -156,7 +156,7 @@ There are three possible game modes you could play. They are the `The Single Pla
    Change your current directory to the location where the battleships can be run from. Use the `cd` command to navigate.
    
    ```bash
-   cd /ECM1400_720022934/src/battleships_game
+   cd /ECM1400_720022934/battleships_game
    ```
 3. **Run the Game_Engine Module:**
 
@@ -243,4 +243,4 @@ For developers contributing to your project, provide information about the code 
 
 - **Author:** Henry James Hardy Bush
 - **License:** MIT
-- **Source:** [Project Repository](https://github.com/your-username/your-project)
+- **Source:** [Project Repository](https://github.com/bushh3/ECM1400_720022934)
