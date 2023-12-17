@@ -10,7 +10,7 @@ setup(
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     # project location
-    url='https://github.com/yourusername/abattleships',  # Adjust the URL based on your project's repository
+    url='https://github.com/bushh3/ECM1400_720022934',  # Adjust the URL based on your project's repository
     # author details
     author='Henry (Harry) James Hardy Bush',
     author_email='harryjhbush@icloud.com',
@@ -57,8 +57,8 @@ setup(
     },
     # url locations for essential parts of the project
     project_urls={
-    'Documentation': 'https://packaging.python.org/tutorials/distributing-packages/', # github url
-    'Source': 'https://github.com/pypa/sampleproject/', # github url
-    'Tests': 'https://github.com/pypa/sampleproject/issues', # github url
+    'Documentation': 'https://github.com/bushh3/ECM1400_720022934/blob/main/README.md',
+    'Source': 'https://github.com/bushh3/ECM1400_720022934/tree/main/src/battleships_game',
+    'Tests': 'https://github.com/bushh3/ECM1400_720022934/tree/main/tests',
     },
 )
