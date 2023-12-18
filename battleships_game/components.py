@@ -66,7 +66,7 @@ def create_battleships(filename="battleships.txt") -> dict:
         log.warning('This file cannot be found')
         log.info('Returning empty dictionary')
         return {}
-def place_battleships(board, ships, algorithm="simple", filename="placement.json") -> list[list[str]]:
+def place_battleships(board,ships,algorithm="simple",filename="placement.json") -> list[list[str]]:
     """
     Places the battleships on the board depending on the placement strategy.
     
@@ -114,7 +114,6 @@ def place_battleships(board, ships, algorithm="simple", filename="placement.json
     else:
         log.warning('No strategy was used to place ships')
     return board
-    
 def place(board, ship_name, ship_size, location, direction) -> None:
     """
     Places of a ship with a specified name, size, and orientation (horizontal

@@ -21,9 +21,9 @@ They take turns trying to be the first to sink each others ships.
 """
 
 import random
+import logging as log
 import components as comp
 import game_engine as gm
-import logging as log
 
 # Format the logging messages
 FORMAT = '%(levelname)s: %(asctime)s %(message)s'

@@ -23,11 +23,11 @@ This module provides the web interface for a user to play against the computer.
 """
 
 import json
+import logging as log
 from flask import Flask, render_template, request, jsonify
 import components as comp
 import game_engine as gm
 import mp_game_engine as mp_gm
-import logging as log
 
 # Format the logging messages
 FORMAT = '%(levelname)s: %(asctime)s %(message)s'

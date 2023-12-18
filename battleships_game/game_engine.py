@@ -15,8 +15,8 @@ This module runs a game where the player tries to sink battleships on a pre-set 
     It also uses functions from the components module.
 """
 
-import components as comp
 import logging as log
+import components as comp
 
 # Format the logging messages
 FORMAT = '%(levelname)s: %(asctime)s %(message)s'
