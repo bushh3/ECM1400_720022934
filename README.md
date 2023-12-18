@@ -39,6 +39,7 @@ To install the `ECM1400_720022934` package on your device, follow these steps:
    ```bash
    pip install battleships_game
    ```
+   If this does not work just download the file and go the the Getting Started Tutorial.
 
 ## Getting Started Tutorial
 There are three possible game modes you could play. They are the `The Single Player Game`, `The Multiplayer Command Line Game`, or `The Multiplayer Web Game`.
@@ -234,11 +235,26 @@ There are three possible game modes you could play. They are the `The Single Pla
    ![Alt text](<README_photos/Screenshot 2023-12-17 at 20.48.15.png>)
 
 ## Testing
-Explain how users can run tests for your project. Include any testing frameworks or tools used.
+To run testing follow these steps:
+1. **Open your Terminal or Command Line:**
+   
+   Open a terminal or command line on your device.
+2. **Navigate to the Directory:**
+   
+   Change your current directory to the location where the battleships can be run from. Use the `cd` command to navigate.
+   
+   ```bash
+   cd /ECM1400_720022934/tests
+   ```
+3. **Run the Functionality Testing Module:**
 
-## Developer Documentation
-For developers contributing to your project, provide information about the code structure, guidelines, and any additional tools they might need.
+   Use this command to run the code in the terminal.
+   ```bash
+   pytest test_functionality.py
+   ```
+4. **Check the Output:**
 
+   Check the output to make sure that all the tests work.
 ## Details
 
 - **Author:** Henry James Hardy Bush

@@ -36,10 +36,10 @@ def initialise_board(size=10) -> list[list[str]]:
     try:
         board = [[None] * size for row in range(size)]
         return board
-    except ValueError:
-        log.warning('Incorrect size value type')
-        log.info('Using default value')
-        return 10
+    except TypeError:
+        log.warning('Size must be an integer')
+        return [[]]
+
 def create_battleships(filename="battleships.txt") -> dict:
     """
     Creates a dictionary of battleships from a file.
@@ -62,11 +62,11 @@ def create_battleships(filename="battleships.txt") -> dict:
         log.warning('Invalid data in the file')
         log.info('Returning empty dictionary')
         return {}
-    except FileNotFound:
+    except FileNotFoundError:
         log.warning('This file cannot be found')
         log.info('Returning empty dictionary')
         return {}
-def place_battleships(board, ships, strat="simple", filename="placement.json") -> list[list[str]]:
+def place_battleships(board, ships, algorithm="simple", filename="placement.json") -> list[list[str]]:
     """
     Places the battleships on the board depending on the placement strategy.
     
@@ -83,13 +83,13 @@ def place_battleships(board, ships, strat="simple", filename="placement.json") -
         - board (2D array): The updated board with the battleships placed.
     """
     # The simple strategy places each battleship horizontal on a new row starting from (0,0)
-    if strat == "simple":
+    if algorithm == "simple":
         row_index = 0
         for ship_name, ship_size in ships.items():
             place(board, ship_name, ship_size, [0, row_index], 'h')
             row_index +=1
     # The random strategy places the battleships in random positions and orientations
-    elif strat == "random":
+    elif algorithm == "random":
         for ship_name, ship_size in ships.items():
             placed = False
             ship_range = len(board) - ship_size
@@ -100,7 +100,7 @@ def place_battleships(board, ships, strat="simple", filename="placement.json") -
                 placed = can_place(board, ship_size, column, row, direction)
             place(board, ship_name, ship_size, [column, row], direction)
     # The custom strategy allows the battleships to be placed according to a placement file
-    elif strat == "custom":
+    elif algorithm == "custom":
         with open(filename, 'r', encoding='utf-8') as custom_file:
             location_data = json.load(custom_file)
             for ship_name, ship_info in location_data.items():
